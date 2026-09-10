@@ -28,39 +28,20 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
 
-  <!--
-    THIS PAGE IS DELIBERATELY ALMOST EMPTY.
-
-    Everything that is not the lesson is already done: the doctype, the meta
-    tags, Tailwind, daisyUI, and a stylesheet of your own. What is missing is
-    the page, and you are about to build it in class, one stage at a time.
-
-    Open it with Live Server now. You should see an unstyled heading and one
-    line of text. That is correct — it means the wiring works and the design
-    has not started.
-
-    THEME. data-theme is on the <html> tag above. Change "nord" to any daisyUI
-    theme — synthwave, forest, cupcake, dracula, retro, autumn, lofi, night —
-    and the whole page changes. Five seconds, and it is the fastest way to find
-    the mood you are after.
-  -->
-  <!--
-    The two classes on <body> are WIRING, not design: they tell the page to use
-    the theme's own ground and ink. Without them the theme you pick above would
-    change nothing you can see, because nothing would be asking for its colours.
-  -->
   <body class="bg-base-100 text-base-content">
-    <!--
-      STAGE ONE — the shell.
-      A hot take is one screen and one opinion. Right now this text runs the
-      full width of the window, which is unreadable on a laptop and is the
-      problem a container exists to solve.
-
-      Wrap the two elements below in a div, then give that div a width ceiling,
-      centre it, and let it breathe.
-    -->
-    <h1>Gym class should start after 9am</h1>
-    <p>Nobody has ever done their best mile at 7:40 in the morning.</p>
+<div
+  class="hero min-h-screen"
+  style="background-image: url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp);"
+>
+  <div class="hero-overlay"></div>
+  <div class="hero-content text-neutral-content text-center">
+    <div class="max-w-md">
+      <h1 class="mb-5 text-5xl font-bold">The Game of Thrones Season Finale Was NOT Terrible</h1>
+      <p class="mb-5"> Daenerys's fall off was coming in hot (literally).</p>
+      <button class="btn btn-primary">Get Started</button>
+    </div>
+  </div>
+</div>
 
     <!--
       SWAP THE TAKE FOR YOUR OWN BEFORE STAGE TWO. Every stage from here builds

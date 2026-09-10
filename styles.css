@@ -6,7 +6,7 @@
  */
 
 /* PALETTE — "…"
- *
+ *e7ae44-fbfffe-6d676e-1b1b1e-96031a
  * Name the mood in a sentence that describes a place or a moment, then list
  * your colours and what job each one does. This block is what you check new
  * decisions against later.
@@ -23,9 +23,11 @@
  * Change "nord" to whatever theme you set on <html>.
  */
 [data-theme='nord'] {
-  /* --color-primary: #______; */
-  /* --color-primary-content: #______; */
-  /* --color-accent: #______; */
+  --color-primary: #6D676E;
+  --color-accent: #1B1B1E;
+  --color-crimson: #96031A;
+  --color-gold: #E7AE44;
+  --color-white: #FBFFFE;
 }
 
 /* TYPE
