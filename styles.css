@@ -30,6 +30,15 @@
   --color-white: #FBFFFE;
 }
 
+.hero {
+  background-image: url("https://wallpapercave.com/wp/wp12401548.jpg");
+}
+.hero h1 {
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 100px;
+  color: var(--color-white);
+}
+
 /* TYPE
  *
  * Two faces: one for headings, chosen for tone; one for body, chosen for
