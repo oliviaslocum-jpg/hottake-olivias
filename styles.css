@@ -39,6 +39,37 @@
   color: var(--color-white);
 }
 
+.card {
+  background-color: var(--color-primary);`
+
+
+}
+
+.card .card-title {
+  color: var(--color-white);
+}
+
+.card .card-body {
+  color: var(--color-white);
+}
+
+.card .btn {
+  background-color: var(--color-crimson);
+  color: var(--color-white);
+
+}
+
+.footer {
+  background-color: var(--color-gold);
+  color: var(--color-accent);
+
+}
+
+.hero .btn {
+  background-color: var(--color-gold);
+  color: var(--color-accent);
+}
+
 /* TYPE
  *
  * Two faces: one for headings, chosen for tone; one for body, chosen for
